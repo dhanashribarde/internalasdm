@@ -31,7 +31,9 @@ public class Constructor2 {
 		  new Constructor2();//line 5 wil be called 
 		 
 		  Constructor2 r= new Constructor2(10);
+		Constructor2 r1= new Constructor2(20);
 		
+
 
 	}
 

@@ -7,17 +7,20 @@ public class Constructor2 {
 	{   x=1;
 	    y=1;
 		System.out.println("no argument constructor");
+	 System.out.println("no argument constructor call");
 	}
 	Constructor2(int a)
 	{    x=a;
 		System.out.println("with argument constructor");
-			
+	 
+		System.out.println("argument constructor call");	
 	}
 	Constructor2(int a,int b)
 	{
 	  x=a;
 	  y=b;
 	System.out.println("with two  argument constructor");
+		System.out.println("with two argument constructor call");
 	}
 	
 	public static void main(String[] args) {
